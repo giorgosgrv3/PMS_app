@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- TUCNER MIFFLIN (LIGHT / DEFAULT) --- */
+:root {
+  --color-primary: 66 32 6;        /* Deep Brown */
+  --color-primary-hover: 88 44 10; /* Lighter Brown */
+  --color-brand: 180 83 9;         /* Amber/Gold */
+  
+  --color-bg-main: 254 252 232;    /* Paper Cream */
+  --color-bg-card: 255 255 255;    /* White */
+  
+  --color-text-main: 69 26 3;      /* Dark Brown Text */
+  --color-text-muted: 120 53 15;   /* Muted Brown */
+  --color-text-on-primary: 254 243 199; /* Cream Text */
+  
+  --bg-image: url('/office.jpg');
+}
+
+/* --- TUCNER MIFFLIN (DARK) --- */
+[data-theme="dark"] {
+  --color-primary: 15 23 42;       /* Slate 900 */
+  --color-primary-hover: 30 41 59; /* Slate 800 */
+  --color-brand: 139 92 246;       /* Violet 500 */
+  
+  --color-bg-main: 15 23 42;       
+  --color-bg-card: 30 41 59;       
+  
+  --color-text-main: 241 245 249;  /* Slate 100 */
+  --color-text-muted: 148 163 184; /* Slate 400 */
+  --color-text-on-primary: 226 232 240; 
+
+  /* CORRECTED: Pointing to your specific file */
+  --bg-image: url('/office_dark.png');
+}
