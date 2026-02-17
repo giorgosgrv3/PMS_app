@@ -10,5 +10,5 @@ In the ```/backups``` directory, there's backups of the latest versions of both 
 Once the containers are up, you can either head to localhost:80 (HTTP) or localhost:5173 (Vite).
 ATTENTION: It is more preferrable that you access the app via Vite, since it offers hot-reloading in case you want to change something in the code, whereas the HTTP access will simply provide you the as-is version, unless you reload the containers.
 
-When you're done with the app, remember to run ```docker-compose down```.
+When you're done with the app, remember to run ```docker-compose down``` :)
 
